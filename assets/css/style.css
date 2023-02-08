@@ -23,6 +23,12 @@ body{
 .d-flex{
     display: flex;
 }
+.d-inl{
+    display: inline;
+}
+.pos-r{
+    position:relative;
+}
 /* #endregion Utility */
 
 /* #region Header */
@@ -37,6 +43,8 @@ header{
     background-color: var(--header);
     align-items: center;
     position:fixed;
+    top:0;
+    z-index:2;
 }
 
 nav{
@@ -51,6 +59,56 @@ nav{
 /* #endregion Header */
 
 /* #region Main */
+main{
+    width:70%;
+    margin: 110px auto 0;
+}
+.col4{
+    width: calc(100% / 12 * 4);
+    padding:0 5px;
+}
+.col4 img{
+    width:100%;
+}
+.back{
+    display: none;
+}
+.col4 .box{
+    color: white;
+}
+.brand{
+    color: gray;
+}
+.cost span{
+    padding:3px 8px 0 0;
+    color:var(--sale);
+}
+.cost span:last-child{
+    color: gray;
+    text-decoration: line-through;
+}
+.sale{
+    background-color: var(--sale);
+    padding: 6px 10px;
+    bottom: 120px;
+}
+.sustain{
+    background-color: var(--sustain);
+    padding: 6px 10px;
+    bottom: 120px;
+}
+.heart{
+    padding: 15px;
+    color: black;
+    background-color: white;
+    font-size: 2rem;
+    top: 62px;
+    right: -309px;
+    z-index:1;
+}
+.heart:hover{
+    color:red;
+}
 
 /* #endregion Main */
 
