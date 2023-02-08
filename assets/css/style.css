@@ -85,7 +85,7 @@ main{
 .brand{
     color: gray;
 }
-.cost span{
+.cost span:first-child{
     padding:3px 8px 0 0;
     color:var(--sale);
 }
