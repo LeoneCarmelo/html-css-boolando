@@ -73,6 +73,12 @@ main{
 .back{
     display: none;
 }
+.card:hover .back{
+    display:inline;
+}
+.card:hover .front{
+    display: none;
+}
 .col4 .box{
     color: white;
 }
