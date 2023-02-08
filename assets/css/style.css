@@ -1,0 +1,20 @@
+/* #region Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #endregion Reset */
+
+/* #region Colors */
+:root{
+    --header: #ff6900;
+    --footer: #1a1a1a;
+    --sustain: #008000;
+    --sale: #ff0000;
+}
+/* #endregion Colors */
+
+/* #region Utility */
+/* #endregion Utility */
+
